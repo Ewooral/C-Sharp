@@ -1,33 +1,43 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net9.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fspoo\\.nuget\\packages\\": {}
+    "C:\\Users\\ewooral\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fspoo\\Desktop\\Ewooral, Soft\\Ewooral-Tutorials\\C-Sharp-\\C_Sharp.csproj",
-      "projectName": "C_Sharp",
-      "projectPath": "C:\\Users\\fspoo\\Desktop\\Ewooral, Soft\\Ewooral-Tutorials\\C-Sharp-\\C_Sharp.csproj",
-      "packagesPath": "C:\\Users\\fspoo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fspoo\\Desktop\\Ewooral, Soft\\Ewooral-Tutorials\\C-Sharp-\\obj\\",
+      "projectUniqueName": "C:\\Users\\ewooral\\myenvironment\\MyFirstProgram\\MyFirstProgram.Legacy.csproj",
+      "projectName": "MyFirstProgram.Legacy",
+      "projectPath": "C:\\Users\\ewooral\\myenvironment\\MyFirstProgram\\MyFirstProgram.Legacy.csproj",
+      "packagesPath": "C:\\Users\\ewooral\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ewooral\\myenvironment\\MyFirstProgram\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\fspoo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ewooral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net9.0"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -35,18 +45,25 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -55,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
